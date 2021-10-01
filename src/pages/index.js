@@ -85,7 +85,7 @@ const Feed = () => {
                             <a href="https://auth0.com/" target="_blank" rel="noreferrer" >
                                 <img src="/auth0.png" />
                             </a>
-                            <a href="https://vercel.com/" target="_blank" >
+                            <a href="https://vercel.com/" target="_blank" rel="noreferrer" >
                                 <img src="/favicon.ico" />
                             </a>
                             <a href="https://github.com/" target="_blank" rel="noreferrer" >
