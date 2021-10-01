@@ -5,7 +5,7 @@ import styled from "styled-components";
 import { Auth0Provider } from "@auth0/auth0-react";
 import Profile from "../components/auth/Profile";
 import Logout from "../components/auth/logout";
-import State from "../components/auth/state";
+import State from "../components/auth/State";
 import Login from "../components/auth/login";
 import { useState } from "react";
 import ReactModal from "react-modal";
