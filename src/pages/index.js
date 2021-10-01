@@ -73,22 +73,22 @@ const Feed = () => {
                         <p>En este proyecto se usaron tecnologias como NextJs, Firebase, GitHub, Vercel, Auth0 y Git</p>
                     </div>
                     <section>
-                            <a href="https://git-scm.com/" target="_blank" >
+                            <a href="https://git-scm.com/" target="_blank" rel="noreferrer" >
                                 <img src="/git.png" />
                             </a>
-                            <a href="https://firebase.google.com/" target="_blank" >
+                            <a href="https://firebase.google.com/" target="_blank" rel="noreferrer" >
                                 <img src="/firebase.png" />
                             </a>
-                            <a href="https://nextjs.org/" target="_blank" >
+                            <a href="https://nextjs.org/" target="_blank" rel="noreferrer" >
                                 <img src="/nextJs.svg" />
                             </a>
-                            <a href="https://auth0.com/" target="_blank" >
+                            <a href="https://auth0.com/" target="_blank" rel="noreferrer" >
                                 <img src="/auth0.png" />
                             </a>
                             <a href="https://vercel.com/" target="_blank" >
                                 <img src="/favicon.ico" />
                             </a>
-                            <a href="https://github.com/" target="_blank" >
+                            <a href="https://github.com/" target="_blank" rel="noreferrer" >
                                 <img src="/gitHub.png" />
                             </a>
                     </section>
