@@ -17,8 +17,6 @@ const Add = () => {
         })
     } 
 
-    const reload = () => window.location.reload;
-
     const click = async event => {
         event.preventDefault()
 
@@ -29,10 +27,10 @@ const Add = () => {
                 description: data.description,
                 date: new Date
             });
-            window.location.reload
         } catch (error) {
             console.log("An error has occurred + " + error);
         };
+
     };
 
     return (
@@ -47,6 +45,7 @@ const Add = () => {
                 <textarea onChange={change} name="description" placeholder="Paso 1..." required />
                 <label>¿De que tipo es tu receta?</label>
                 <input type="text" name="type" onChange={change} placeholder="Vegetariana, Parrilla, Reposteria ..." required />
+                <h4>Para ver la receta debes recargar la pagina</h4>
                 <input onClick={click} type="submit" value="Agregar" className="submit" />
             </form>
         </Wrapper>
@@ -79,6 +78,13 @@ const Wrapper = styled.div`
             &:active {
                 transform: scale(1.02);
             }
+        }
+
+        h4 {
+            text-align: left;
+            width: 100%;
+            color: rgb(80, 80, 80);
+            font-style: italic;
         }
 
         label {

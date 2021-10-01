@@ -27,7 +27,7 @@ const Feed = () => {
     }
 
     return (
-        <Auth0Provider domain="dev-dou8wmxc.us.auth0.com" clientId="PXWrsxQUkGUjzxYg7FNUjHOuYVWw6ar8" redirectUri="http://recepy.vercel.app/" >
+        <Auth0Provider domain="dev-dou8wmxc.us.auth0.com" clientId="PXWrsxQUkGUjzxYg7FNUjHOuYVWw6ar8" redirectUri="http://localhost:3000/" >
             <div onLoad={load} >
                 <Head>
                     <title>Feed</title>
